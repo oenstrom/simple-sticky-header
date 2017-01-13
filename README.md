@@ -4,7 +4,7 @@ A really simple jQuery script for adding a sticky class to the header on scroll.
 `simple-sticky-header.js` works by adding a CSS class to the target once the window has been scrolled past it.  
 It also removes the class if you scroll back up.
 
-[**JSFiddle demo**](https://jsfiddle.net) (Will be replaced soon)
+[**Live demo**](https://oenstrom.github.io/simple-sticky-header/)
 
 ## Installation
 Download and include `simple-sticky-header.min.js` in your document after including jQuery.  
