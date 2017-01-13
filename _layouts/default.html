@@ -85,8 +85,13 @@
     </section>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
-    <script src="https://raw.githubusercontent.com/oenstrom/simple-sticky-header/master/simple-sticky-header.min.js" type="text/javascript"></script>
     <script type="text/javascript">
+        /*
+         Olof Enström 2017
+         @license GPL-3.0+
+         https://github.com/oenstrom/simple-sticky-header/blob/master/LICENSE
+        */
+        (function(a){a.fn.simpleStickyHeader=function(b){var c=this,d=c.offset().top,e=a.extend({"class":"sticky-header"},b);b=function f(){c.toggleClass(e["class"],a(window).scrollTop()>=d);return f}();a(window).scroll(b);return this}})(jQuery);
         $(function() {
             $("#sticky-header").simpleStickyHeader();
         });
