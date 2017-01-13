@@ -4,7 +4,7 @@
  * More info: https://github.com/oenstrom/simple-sticky-header/
  *
  * @author Olof Enström
- * @version 1.0.0
+ * @version 0.9.0
  * @copyright Olof Enström 2017
  * @license GPL-3.0+
  * https://github.com/oenstrom/simple-sticky-header/blob/master/LICENSE
