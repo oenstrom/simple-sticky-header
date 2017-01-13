@@ -15,7 +15,7 @@
         var headerOffsetTop = that.offset().top;
 
         var settings = $.extend({
-            class: "fixed-header"
+            class: "sticky-header"
         }, options);
 
         var toggleFixedClass = (function toggleFixed() {
